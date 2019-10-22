@@ -1,5 +1,7 @@
 package com.ibyte.iot.tcp.exception;
-
+/**
+* @author Li.shangzhi <blog:lishangzhi.github.io> 
+*/
 public class CommunicationException extends RuntimeException {
 
     /**

@@ -7,7 +7,7 @@ import com.ibyte.iot.tcp.connector.api.listener.SessionListener;
  * @Description: 
  *
  * @Date Jan 15, 2019 11:02:35 AM
- * @author Li.shangzhi
+ * @author Li.shangzhi <blog:lishangzhi.github.io>  
  * @version 1.0
  */
 public interface Endpoint extends Node {

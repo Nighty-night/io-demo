@@ -1,7 +1,9 @@
 package com.ibyte.iot.tcp.constant;
 
 import io.netty.util.AttributeKey;
-
+/**
+* @author Li.shangzhi <blog:lishangzhi.github.io> 
+*/
 public class Constants {
 
     /**

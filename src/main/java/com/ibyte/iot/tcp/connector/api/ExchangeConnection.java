@@ -5,6 +5,7 @@ import com.ibyte.iot.tcp.connector.Session;
 
 /**
  * Created by Li.shangzhi on 17/1/10.
+ * <blog:lishangzhi.github.io> 
  */
 public abstract class ExchangeConnection<T> implements Connection<T> {
 

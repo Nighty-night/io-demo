@@ -73,6 +73,17 @@ Window 地址 // C:\Windows\System32\drivers\etc\hosts
 #### 2.启动Client
 位置: ``com.ibyte.iot.test.client.TcpClient``
 
-
+**交流群**
+<table border="0">
+    <tr>
+        <td>微信交流群：微信</td>
+        <td>微信公众号：码农架构</font></td>
+    </tr>
+    <tr>&nbsp;</tr>
+    <tr>
+        <td><img title="微信交流" src="https://images.gitee.com/uploads/images/2019/1224/142624_7fa3a926_1468963.png" height="200" width="220"/></td>
+        <td><img title="微信公众号-微技术栈" src="https://images.gitee.com/uploads/images/2019/1023/155117_006731a8_111383.jpeg" height="200" width="200"/></td>
+    </tr>
+</table>
 
 

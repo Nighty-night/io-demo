@@ -18,7 +18,7 @@ public class TcpServer {
 
     private ServerTransportConfig serverConfig;
 
-    private int port;
+    private int port = 8048;
 
     private static final int BIZ_GROUP_SIZE = Runtime.getRuntime().availableProcessors() * 2;
     private static final int BIZ_THREAD_SIZE = 4;

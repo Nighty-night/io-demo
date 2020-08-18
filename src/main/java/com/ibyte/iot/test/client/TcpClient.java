@@ -14,7 +14,7 @@ import io.netty.handler.codec.protobuf.ProtobufVarint32LengthFieldPrepender;
 public class TcpClient {
 
     public static String host = "iot-open.icloud.com";
-    public static int port = 2000;
+    public static int port = 8048;
 
     public static Bootstrap bootstrap = getBootstrap();
     public static Channel channel = getChannel(host, port);
@@ -56,9 +56,12 @@ public class TcpClient {
     }
 
     public static void connect(Object msg) throws Exception {
-        if (channel != null) {
+
+//        if (channel.isActive()) {
             channel.writeAndFlush(msg).sync();
-        }
+//        }else{
+//            System.out.println("Connect Server (host[" + host + "]:port[" + port + "]) closed." );
+//        }
     }
 
     /**
